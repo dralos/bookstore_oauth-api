@@ -22,7 +22,6 @@ func init() {
 		panic(err)
 	}
 	fmt.Println("connection successfully")
-	defer session.Close()
 }
 
 func GetSession() *gocql.Session {

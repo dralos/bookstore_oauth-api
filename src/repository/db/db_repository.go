@@ -1,7 +1,7 @@
 package db
 
 import (
-	"github.com/dralos/bookstore_oauth-api/clients/cassandra"
+	"github.com/dralos/bookstore_oauth-api/src/clients/cassandra"
 	"github.com/dralos/bookstore_oauth-api/src/domain/access_token"
 	"github.com/dralos/bookstore_oauth-api/src/utils/errors"
 	"github.com/gocql/gocql"
